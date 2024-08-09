@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RSS결과페이지</title>
+</head>
+<body>
+    <h1>{{rss_url}} 엑셀 변환 결과</h1>
+    <form action="{{url_for('download_report')}}">
+        <input type="submit" value="보고서 다운로드">
+    </form>
+</body>
+</html>
